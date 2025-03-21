@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Knowledge Quiz - BrainBuzz</title>
+    <link rel="stylesheet" href="C:\Users\Dell\Desktop\fsd assignment (2)\fsd assignment\css\quiz.css">
+</head>
+<body>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.quiz-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.quiz-question {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+    </style>
+    <header>
+        <div class="container">
+            <h1>General Knowledge Quiz</h1>
+        </div>
+    </header>
+    <main>
+        <section class="quiz-section">
+            <h2>Test Your Knowledge!</h2>
+            <form id="quiz-form">
+                <div class="quiz-question">
+                    <h3>1. Who was the first President of the United States?</h3>
+                    <label><input type="radio" name="q1" value="George Washington"> George Washington</label>
+                    <label><input type="radio" name="q1" value="Thomas Jefferson"> Thomas Jefferson</label>
+                    <label><input type="radio" name="q1" value="John Adams"> John Adams</label>
+                </div>
+
+                <div class="quiz-question">
+                    <h3>2. What is the capital of France?</h3>
+                    <label><input type="radio" name="q2" value="Paris"> Paris</label>
+                    <label><input type="radio" name="q2" value="London"> London</label>
+                    <label><input type="radio" name="q2" value="Berlin"> Berlin</label>
+                </div>
+
+                <div class="quiz-question">
+                    <h3>3. Which planet is known as the Red Planet?</h3>
+                    <label><input type="radio" name="q3" value="Mars"> Mars</label>
+                    <label><input type="radio" name="q3" value="Jupiter"> Jupiter</label>
+                    <label><input type="radio" name="q3" value="Venus"> Venus</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit Quiz</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us at <a href="mailto:quiz@website.com">quiz@website.com</a></p>
+    </footer>
+</body>
+</html>
